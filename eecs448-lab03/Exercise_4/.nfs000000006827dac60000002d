@@ -7,7 +7,7 @@ function changeColBack(){
 	greenValue=green.form.greenvalborder.value;
 	var blue= document.getElementById("blueVal");
 	blueValue=blue.form.bluevalborder.value;
-	var changeBorder= document.getElementById("par");
+	var changeBorder= document.getElementById("p1");
 	
         //border stuff
 	var red1=document.getElementById("redValBor");
@@ -19,9 +19,9 @@ function changeColBack(){
 	var width1=document.getElementById("widthBor");
 	widthValue1= width1.form.widthBor.value;
 	
-	changepar.style.backgroundColor=rgb(redValue,greenValue,blueValue);
-	changepar.style.borderColor=rgb(redValue1,greenValue1,blueValue1);
-	changepar.style.borderWidth=widthValue1;
+	changeBorder.style.backgroundColor=rgb(redValue,greenValue,blueValue);
+	changeBorder.style.borderColor=rgb(redValue1,greenValue1,blueValue1);
+	changeBorder.style.borderWidth=widthValue1;
 }
 //concats values into string
 //found on http://stackoverflow.com/questions/2173229/how-do-i-write-a-rgb-color-value-in-javascript
