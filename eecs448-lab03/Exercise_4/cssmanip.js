@@ -22,6 +22,7 @@ function changeColBack(){
 	changeBorder.style.borderWidth=widthValue1;
 }
 //concats values into string
+//found on http://stackoverflow.com/questions/2173229/how-do-i-write-a-rgb-color-value-in-javascript
 function rgb(r, g, b){
   return "rgb("+r+","+g+","+b+")";
 }
