@@ -1,3 +1,4 @@
+//assumes good input from the user
 function changeColBack(){
 	var red= document.getElementById("redVal");
 	redValue=red.form.redvalborder.value;
@@ -20,7 +21,7 @@ function changeColBack(){
 	changeBorder.style.borderColor=rgb(redValue1,greenValue1,blueValue1);
 	changeBorder.style.borderWidth=widthValue1;
 }
-//http://stackoverflow.com/questions/2173229/how-do-i-write-a-rgb-color-value-in-javascript
+//concats values into string
 function rgb(r, g, b){
   return "rgb("+r+","+g+","+b+")";
 }
