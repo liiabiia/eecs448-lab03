@@ -10,6 +10,6 @@ function validate(form){
         alert("ERROR: Passwords do not match.");
     } else {
     
-        alert("Match!");
+        alert("Passwords match! Hooray!");
     }
 }
