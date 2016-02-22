@@ -1,0 +1,27 @@
+p{
+	color: #660033;
+	background-color: pink;
+	font-family: Impact;
+	font-size: 24;
+}
+p.arrow{
+	color: purple;
+	background-color: #99ccff;
+}
+a{
+	color: #e600e6;
+	background-color: #00141a;
+	font-family: Helvetica;
+	font-size:14;
+}
+a:hover{
+	color:#00141a;
+	background-color: #e600e6;
+	
+}
+body{
+	background-image: url(sparkles.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
