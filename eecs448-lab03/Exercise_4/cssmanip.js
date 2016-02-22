@@ -1,5 +1,6 @@
 //assumes good input from the user
 function changeColBack(){
+        //background stuff
 	var red= document.getElementById("redVal");
 	redValue=red.form.redvalborder.value;
 	var green= document.getElementById("greenVal");
@@ -8,6 +9,7 @@ function changeColBack(){
 	blueValue=blue.form.bluevalborder.value;
 	var changeBorder= document.getElementById("p1");
 	
+        //border stuff
 	var red1=document.getElementById("redValBor");
 	redValue1= red1.form.redvalborder1.value;
 	var green1=document.getElementById("greenValBor");
